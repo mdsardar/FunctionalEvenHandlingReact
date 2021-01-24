@@ -1,2 +1,2 @@
-# FunctionalEvenHandlingReact
+# ReactAndSandbox
 Created with CodeSandbox
