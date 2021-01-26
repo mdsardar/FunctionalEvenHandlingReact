@@ -9,11 +9,14 @@ import Counter from "./Components/Counter";
 import FunctionalComponent from "./Components/FunctionalComponent";
 import ClassClick from "./Components/ClassClick";
 import EventBind from "./Components/EventBind"
+import ParentComponent from "./Components/ParentComponent"
+
 class App extends Component {
   render() {
-    return (
+    return ( 
       <div className="App">
-        <EventBind/>
+        <ParentComponent />
+        {/* <EventBind/> */}
         {/* <FunctionalComponent />
         <ClassClick /> */}
         {/* {<Counter />} */}
